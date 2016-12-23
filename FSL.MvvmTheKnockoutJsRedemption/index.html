@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MVVM: The KnockoutJS redemption</title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/knockout-3.2.0.js"></script>
+    <script src="Scripts/knockout.mapping-latest.js"></script>
+    <script src="Scripts/view-models/person.js?vswfsd"></script>
+</head>
+<body>
+    <div id="person">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: $root.list">
+                <tr>
+                    <td><span data-bind="html: $index() + 1"></span></td>
+                    <td>
+                        <span data-bind="visible: !$data.IsEditing(), html: $data.Name"></span>
+                        <input type="text" data-bind="visible: $data.IsEditing, value: $data.Name" />
+                    </td>
+                    <td>
+                        <span data-bind="visible: !$data.IsEditing(),html: $root.getGenderName($data)"></span>
+                        <select data-bind="visible: $data.IsEditing, options: $root.genders, optionsValue: 'Id', optionsText: 'Name', value: $data.Gender" />
+                    </td>
+                    <td>
+                        <input type="button" data-bind="visible: !$data.IsEditing(), click: $root.onEdit, enable: !$root.isEditing()" value="edit" />
+                        <input type="button" data-bind="visible: $data.IsEditing, click: $root.onSave" value="save" />
+                        <input type="button" data-bind="click: $root.onDelete, enable: $data.IsEditing() || !$root.isEditing()" value="delete" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <input type="button" data-bind="click: $root.onInsert, enable: !$root.isEditing()" value="insert" />
+        
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // initial data
+            personViewModel.init({ List: [{ Name: 'Jack', Gender: 0, IsEditing: false }, { Name: 'Charlie', Gender: 1, IsEditing: false }, { Name: 'Hugo', Gender: 0, IsEditing: false }] })
+        });
+    </script>
+</body>
+</html>

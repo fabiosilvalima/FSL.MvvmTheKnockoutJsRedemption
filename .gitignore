@@ -3,3 +3,7 @@
 ################################################################################
 
 /FSL.MvvmTheKnockoutJsRedemption/bin
+/FSL.MvvmTheKnockoutJsRedemption/obj/Debug
+*.user
+/.vs
+/packages
