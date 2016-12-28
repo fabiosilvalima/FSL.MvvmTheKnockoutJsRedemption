@@ -6,6 +6,10 @@ In this article I will show you how to use KnockoutJS in a simple way writing ja
 
 ![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/70562_3496_3.jpg?w=616)
 
+> **LIVE DEMO:**
+> 
+http://codefinal.com/FSL.MvvmTheKnockoutJsRedemption/
+
 ---
 **KnockoutJS** is javascript plugin with Model-View-View-Model (**MVVM**) pattern. When your data model’s state changes, your UI updates automatically. Like AngularJS it’s provides a full control for a view and his model.
 
