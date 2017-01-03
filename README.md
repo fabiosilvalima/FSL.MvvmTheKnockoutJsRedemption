@@ -8,10 +8,17 @@ In this article I will show you how to use KnockoutJS in a simple way writing ja
 
 > **LIVE DEMO:**
 > 
-http://codefinal.com/FSL.MvvmTheKnockoutJsRedemption/
+> http://codefinal.com/FSL.MvvmTheKnockoutJsRedemption/
+
+> **FULL ARTICLE:**
+>
+> English: https://fabiosilvalima.net/2016/12/23/mvvm-the-knockoutjs-redemption/
+>
+> PortuguÃªs: https://fabiosilvalima.com.br/2016/12/23/mvvm-a-redencao-do-knockoutjs/
 
 ---
-**KnockoutJS** is javascript plugin with Model-View-View-Model (**MVVM**) pattern. When your data model’s state changes, your UI updates automatically. Like AngularJS it’s provides a full control for a view and his model.
+
+**KnockoutJS** is javascript plugin with Model-View-View-Model (**MVVM**) pattern. When your data modelâ€™s state changes, your UI updates automatically. Like AngularJS itâ€™s provides a full control for a view and his model.
 
 What is the article for?
 ---
@@ -24,11 +31,11 @@ What is in the source code?
 
 #### <i class="icon-file"></i> FSL.MvvmTheKnockoutJsRedemption
 
-1 – KnockoutJS javascript plugin;
-2 – KnockoutJS javascript mapping plugin;
-3 – jQuery jsvascript plugin;
-4 – Our person viewmodel in javascript;
-5 – An index.html for our simple view;
+1 â€“ KnockoutJS javascript plugin;
+2 â€“ KnockoutJS javascript mapping plugin;
+3 â€“ jQuery jsvascript plugin;
+4 â€“ Our person viewmodel in javascript;
+5 â€“ An index.html for our simple view;
 
 > **Remarks:**
 
@@ -41,10 +48,10 @@ What is in the source code?
 What is the goal?
 ---
 
-1 – Use KnockoutJS to handle the view stuff;
-2 – Write javascript code in Revealing Module Pattern;
-3 – Create a feature to insert, edit and delete data;
-4 – Demonstrate how KnockoutJS works using mapping, computed variables and computed methods.
+1 â€“ Use KnockoutJS to handle the view stuff;
+2 â€“ Write javascript code in Revealing Module Pattern;
+3 â€“ Create a feature to insert, edit and delete data;
+4 â€“ Demonstrate how KnockoutJS works using mapping, computed variables and computed methods.
 
 ![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/kocnoutredemption.png)
 
