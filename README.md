@@ -4,7 +4,7 @@
 
 In this article I will show you how to use KnockoutJS in a simple way writing javascript in Revealing Module Pattern as an alternative to AngularJS.
 
-![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/70562_3496_3.jpg?w=616)
+![enter image description here](https://fabiosilvalima.net/wp-content/uploads/2017/01/fabiosilvalima-mvvm-a-redencao-do-knockoutjs.jpg)
 
 > **LIVE DEMO:**
 > 
@@ -12,9 +12,9 @@ In this article I will show you how to use KnockoutJS in a simple way writing ja
 
 > **FULL ARTICLE:**
 >
-> English: https://fabiosilvalima.net/2016/12/23/mvvm-the-knockoutjs-redemption/
+> English: https://fabiosilvalima.net/en/mvvm-knockoutjs-redemption/
 >
-> Português: https://fabiosilvalima.com.br/2016/12/23/mvvm-a-redencao-do-knockoutjs/
+> Português: https://fabiosilvalima.net/a-redencao-do-mvvm-knockoutjs/
 
 ---
 
@@ -196,7 +196,6 @@ References:
 ---
 
 - More at my blog click here [fabiosilvalima.net][1];
-- Read full article [MVVM: The KnockoutJs Redemption][2];
 
 Licence:
 ---
@@ -204,5 +203,4 @@ Licence:
 - Licence MIT
 
 
-  [1]: http://fabiosilvalima.net
-  [2]: https://fabiosilvalima.net/2016/12/23/mvvm-the-knockoutjs-redemption/
+  [1]: https://fabiosilvalima.net
