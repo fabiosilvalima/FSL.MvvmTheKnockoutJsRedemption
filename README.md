@@ -53,7 +53,7 @@ What is the goal?
 3 – Create a feature to insert, edit and delete data;
 4 – Demonstrate how KnockoutJS works using mapping, computed variables and computed methods.
 
-![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/kocnoutredemption.png)
+![enter image description here](http://fabiosilvalima.net/wp-content/uploads/2016/12/fabiosilvalima-mvvm-knockoutjs-redemption-screen.png)
 
 **Assumptions:**
 
